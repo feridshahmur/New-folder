@@ -1,0 +1,17 @@
+body{
+    background-image: url("../images/login/f6cf4cdc751e19cca936ead540dcb59d.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    color: #fff;
+}
+h1{
+    color: #fff;
+}
+
