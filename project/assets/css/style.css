@@ -9,6 +9,7 @@
     background-color: #f8f9fa;
   }
   
+  
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -84,4 +85,113 @@
     border-radius: 50%;
     object-fit: cover;
   }
-  
+  #cards{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+   
+  }
+  .card {
+    width: 300px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+   
+    /* overflow: hidden; */
+}
+
+
+.card-header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 40px; */
+}
+
+.card-header h2 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.card-header .category {
+    font-size: 20px;
+    margin: 0;
+}
+
+.card-header .favorite {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.car-image {
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+    object-fit: contain;
+    
+
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature span {
+    font-size: 18px;
+    color: #555;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0 0;
+}
+
+.card-footer {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    text-align: left;
+}
+
+.current-price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.original-price {
+    font-size: 14px;
+    color: #888;
+    text-decoration: line-through;
+    margin: 5px 0 0;
+}
+
+.rent-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.rent-button:hover {
+    background: #0056b3;
+}
